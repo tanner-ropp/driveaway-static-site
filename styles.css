@@ -60,12 +60,10 @@ button {
 @keyframes headerLoad {
   from {
     opacity: 0;
-    transform: translateY(-30%);
   }
 
   to {
     opacity: 100%;
-    transform: translateY(0%);
   }
 }
 
@@ -105,9 +103,8 @@ button {
 
 h1 {
   text-transform: uppercase;
-  font-family: "Archivo Black", sans-serif;
-  font-family: "Gloria Hallelujah", cursive;
-  letter-spacing: 0.2em;
+  font-family: "Ultra", serif;
+  letter-spacing: 0.1em;
   text-shadow: 1px 1px 1px rgb(112, 221, 240);
   font-weight: 100;
   animation: headerLoad 1s ease-in-out forwards;
@@ -150,7 +147,10 @@ svg {
   animation-delay: 0.8s;
 }
 .social-links svg:nth-child(5) {
-  animation: lastIcon 1.6s ease forwards 0.9s;
+  animation-delay: 0.9s;
+}
+.social-links svg:nth-child(6) {
+  animation: lastIcon 1.6s ease forwards 1s;
 }
 
 svg:hover {

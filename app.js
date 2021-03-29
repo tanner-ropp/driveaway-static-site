@@ -1,25 +1,29 @@
 const toMerchSite = () => {
-    window.location.href = "https://driveawaymerch.bigcartel.com"
+    window.open("https://driveawaymerch.bigcartel.com", '_blank')
 }
 
 const toInstagram = () => {
-    window.location.href = "https://www.instagram.com/driveaway/?hl=en"
+    window.open("https://www.instagram.com/driveaway/?hl=en", '_blank')
 }
 
 const toTikTok = () => {
-    window.location.href = "https://www.tiktok.com/@driveaway"
+    window.open("https://www.tiktok.com/@driveaway", '_blank')
 }
 
 const toAppleMusic = () => {
-    window.location.href = "https://music.apple.com/us/artist/driveaway/1279072342"
+    window.open("https://music.apple.com/us/artist/driveaway/1279072342", '_blank')
 }
 
 const toYoutube = () => {
-    window.location.href = "https://www.youtube.com/watch?v=hwpq-Aqd23Y"
+    window.open("https://www.youtube.com/watch?v=hwpq-Aqd23Y", '_blank')
 }
 
 const toSpotify = () => {
-    window.location.href = "https://open.spotify.com/artist/08fGtVFZ52GbLMx68J8RFF?si=aGzKoXTZRveqFViNmwRs6Q"
+    window.open("https://open.spotify.com/artist/08fGtVFZ52GbLMx68J8RFF?si=aGzKoXTZRveqFViNmwRs6Q", '_blank')
+}
+
+const openEmail = () => {
+    window.open("mailto:driveawaymgmt@gmail.com", '_blank')
 }
 
 if (window.matchMedia("(max-width: 600px)").matches) {
