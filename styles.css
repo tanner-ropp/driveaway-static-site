@@ -103,11 +103,13 @@ button {
 
 h1 {
   text-transform: uppercase;
-  font-family: "Ultra", serif;
+  font-family: "Cantarell", serif;
+  font-style: italic;
   letter-spacing: 0.1em;
   text-shadow: 1px 1px 1px rgb(112, 221, 240);
-  font-weight: 100;
+  font-weight: 700;
   animation: headerLoad 1s ease-in-out forwards;
+  transform: translateX(-2%);
 }
 
 button:hover {
