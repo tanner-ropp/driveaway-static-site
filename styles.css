@@ -26,7 +26,7 @@ body {
 }
 
 button {
-  box-shadow: 1px 1px 1px rgb(112, 221, 240);
+  box-shadow: 1px 1px 1px rgb(91, 62, 221);
   border: 2px solid rgba(245, 245, 245, 0.911);
   border-radius: 2px;
   color: rgba(245, 245, 245, 0.911);
@@ -97,10 +97,10 @@ img {
     opacity: 100%;
   }
 
-  75% {
+  /* 75% {
     transform: rotate(400deg);
     opacity: 100%;
-  }
+  } */
 
   100% {
     transform: rotate(360deg);
@@ -132,7 +132,7 @@ button:hover {
 }
 
 svg {
-  filter: drop-shadow(1px 1px 1px rgb(112, 221, 240));
+  filter: drop-shadow(1px 1px 1px rgb(91, 62, 221));
   width: 30px;
   height: 30px;
   fill: rgba(245, 245, 245, 0.911);
