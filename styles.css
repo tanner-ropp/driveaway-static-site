@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  width: max-content;
+  width: 25vw;
   padding-left: 0.2em;
 }
 
@@ -43,6 +43,13 @@ button {
   animation-fill-mode: forwards;
   transition: all 0.3s ease-in-out;
   animation-delay: 0.5s;
+}
+
+img {
+  max-width: 100%;
+  animation: headerLoad 1s ease-in-out forwards;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 @keyframes buttonLoad {
@@ -169,6 +176,7 @@ svg:hover {
     justify-content: center;
     padding: 0 !important;
     margin: 0 !important;
+    margin-top: 1rem !important;
     background-image: linear-gradient(
         180deg,
         rgba(38, 38, 38, 0.471) 3%,
@@ -179,6 +187,10 @@ svg:hover {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+  }
+
+  .container {
+    width: 90vw;
   }
 
   h1 {
